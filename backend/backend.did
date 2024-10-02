@@ -1,0 +1,7 @@
+service : {
+  getBoard: () -> (vec vec opt bool) query;
+  getCurrentPlayer: () -> (bool) query;
+  isGameOver: () -> (bool) query;
+  makeMove: (nat, nat) -> (bool);
+  resetGame: () -> ();
+}
